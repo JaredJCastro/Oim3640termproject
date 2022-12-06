@@ -23,7 +23,7 @@ def calculate_compound_interest(p: int, i: float, t: int, n: int):
     Calculate compound interest.
 
     :param p: The principal investment amount.
-    :param i: The annual interest rate (decimal form).
+    :param i: The annual interest rate (decimal form). In this case, we based interest rate of each stock index based on average historical data.
     :param t: Number of years the money is invested for.
     :param n: Number of times that interest is compounded per year.
     :return: The future value of the investment.
